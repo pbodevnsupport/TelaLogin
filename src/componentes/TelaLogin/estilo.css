@@ -1,0 +1,66 @@
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 400px;
+    height: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#logomarca {
+    background-color: #00aa00;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#formulario {
+    width: 250px;
+    margin: 0px 50px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+      
+}
+
+label, input {
+    margin: 20px 0px 0px 0px;
+}
+
+label {
+    font-weight: bold;
+    color: #0000aa;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+}
+
+.button {
+    height: 35px;
+    border-radius: 20px;
+    color: #ffffff;
+    border: none;
+}
+
+#proceed {
+    background-color: #00aa00;
+}
+
+#forgotpw {
+    background-color: #aa0000;
+}
